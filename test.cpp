@@ -24,7 +24,6 @@ int main(){
 	std::array<const long double,N> answers = { 6, -3, 20, 17, 49, 25, -200, 1, 256, 9, 9, -18 };
 
 	evalexpr calc ;
-	std::string expression;
 
 	std::cout << std::boolalpha ;
 	for( size_t i{}; i < tests.size() ; i++ ) {
